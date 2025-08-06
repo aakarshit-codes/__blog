@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <div id="post-content" class="max-w-3xl mx-auto px-4 py-10">
+    <!-- Post will load here -->
+  </div>
+
+  <div id="comment-section" class="max-w-3xl mx-auto px-4 pb-20 hidden">
+    <h3 class="text-xl font-semibold mb-4">Comments</h3>
+
+    <!-- Comment Form -->
+    <form id="comment-form" class="space-y-4 mb-6">
+    <textarea id="comment-text" placeholder="Write a comment..."
+      class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition"></textarea>
+      <button type="submit"
+        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Post
+        Comment</button>
+    </form>
+
+    <!-- Comment List -->
+    <div id="comment-list" class="space-y-4">
+      <!-- Comments will go here -->
+    </div>
+  </div>
+
+  <script type="module" src="./js/post.js"></script>
+</body>
+
+</html>

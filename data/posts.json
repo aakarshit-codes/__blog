@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "How Fasting Healed My Focus",
+    "date": "2025-08-01",
+    "image": "https://picsum.photos/200/300",
+    "summary": "Exploring how intermittent fasting helped me find mental clarity and discipline.",
+    "content": "In this post, I share my journey with fasting and how it sharpened my ability to focus deeply..."
+  },
+  {
+    "id": 2,
+    "title": "Building a Personal System for Deep Work",
+    "date": "2025-07-28",
+    "image": "https://picsum.photos/200/300",
+    "summary": "How I created a daily system that made deep work a natural rhythm in my life.",
+    "content": "Systems beat motivation every time. Here's how I built one around deep, meaningful work..."
+  },
+  {
+    "id": 3,
+    "title": "Letting Go of Control to Trust the Flow",
+    "date": "2025-07-20",
+    "image": "https://picsum.photos/200/300",
+    "summary": "A personal reflection on surrender, emotional maturity, and trusting the unknown.",
+    "content": "Not everything needs to be controlled. Here’s what happened when I let go..."
+  }
+]
